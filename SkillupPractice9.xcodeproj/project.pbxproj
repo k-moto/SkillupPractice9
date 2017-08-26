@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037357AAC8F2C92BAC68AC69 /* Pods_SkillupPractice9UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B13B03C572904D352A89340 /* Pods_SkillupPractice9UITests.framework */; };
+		9FE8BA891F50A7380055405F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE8BA881F50A7380055405F /* Assets.xcassets */; };
+		9FE8BA8C1F50A7380055405F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE8BA8A1F50A7380055405F /* LaunchScreen.storyboard */; };
+		9FE8BA971F50A7380055405F /* SkillupPractice9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8BA961F50A7380055405F /* SkillupPractice9Tests.swift */; };
+		9FE8BAA21F50A7380055405F /* SkillupPractice9UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8BAA11F50A7380055405F /* SkillupPractice9UITests.swift */; };
+		9FE8BAB81F50B0130055405F /* TweetList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE8BAB01F50B0130055405F /* TweetList.storyboard */; };
+		9FE8BAB91F50B0130055405F /* TweetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8BAB11F50B0130055405F /* TweetListViewController.swift */; };
+		9FE8BABA1F50B0130055405F /* RealmDaoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8BAB31F50B0130055405F /* RealmDaoHelper.swift */; };
+		9FE8BABB1F50B0130055405F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8BAB61F50B0130055405F /* AppDelegate.swift */; };
+		9FE8BABD1F50B7060055405F /* TweetListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8BABC1F50B7060055405F /* TweetListCell.swift */; };
+		9FE8BABF1F50B7DE0055405F /* TweetAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8BABE1F50B7DE0055405F /* TweetAPI.swift */; };
+		9FE8BAC11F50B80E0055405F /* TweetStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8BAC01F50B80E0055405F /* TweetStatus.swift */; };
+		9FE8BAC31F50B8310055405F /* TweetResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8BAC21F50B8310055405F /* TweetResult.swift */; };
+		9FE8BAC51F50B85D0055405F /* TweetItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8BAC41F50B85D0055405F /* TweetItem.swift */; };
+		9FE8BAC91F50BA880055405F /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8BAC71F50BA880055405F /* APIClient.swift */; };
+		9FE8BACA1F50BA880055405F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8BAC81F50BA880055405F /* NetworkManager.swift */; };
+		9FE8BACC1F50F8720055405F /* TweetImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8BACB1F50F8720055405F /* TweetImageData.swift */; };
+		9FE8BACE1F50F8790055405F /* TweetImageDataDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8BACD1F50F8790055405F /* TweetImageDataDao.swift */; };
+		9FE8BAD01F50FE340055405F /* TweetListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8BACF1F50FE340055405F /* TweetListDataSource.swift */; };
+		CD6E7DCA029CB575BAE6BD58 /* Pods_SkillupPractice9Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE7430DF8154875953BC717 /* Pods_SkillupPractice9Tests.framework */; };
+		F121BD4C14E556386F3EDD70 /* Pods_SkillupPractice9.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD26768F9E300BF80C920CD /* Pods_SkillupPractice9.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FE8BA931F50A7380055405F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FE8BA761F50A7380055405F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FE8BA7D1F50A7380055405F;
+			remoteInfo = SkillupPractice9;
+		};
+		9FE8BA9E1F50A7380055405F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FE8BA761F50A7380055405F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FE8BA7D1F50A7380055405F;
+			remoteInfo = SkillupPractice9;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		236C7AD2098FE34C6FED04D4 /* Pods-SkillupPractice9.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillupPractice9.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkillupPractice9/Pods-SkillupPractice9.debug.xcconfig"; sourceTree = "<group>"; };
+		644979E1DC4084C75DAA80E8 /* Pods-SkillupPractice9Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillupPractice9Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkillupPractice9Tests/Pods-SkillupPractice9Tests.release.xcconfig"; sourceTree = "<group>"; };
+		663C34674CB88D660D650A00 /* Pods-SkillupPractice9UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillupPractice9UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkillupPractice9UITests/Pods-SkillupPractice9UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B13B03C572904D352A89340 /* Pods_SkillupPractice9UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillupPractice9UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE8BA7E1F50A7380055405F /* SkillupPractice9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkillupPractice9.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE8BA881F50A7380055405F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FE8BA8B1F50A7380055405F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FE8BA8D1F50A7380055405F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FE8BA921F50A7380055405F /* SkillupPractice9Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkillupPractice9Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE8BA961F50A7380055405F /* SkillupPractice9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillupPractice9Tests.swift; sourceTree = "<group>"; };
+		9FE8BA981F50A7380055405F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FE8BA9D1F50A7380055405F /* SkillupPractice9UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkillupPractice9UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE8BAA11F50A7380055405F /* SkillupPractice9UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillupPractice9UITests.swift; sourceTree = "<group>"; };
+		9FE8BAA31F50A7380055405F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FE8BAB01F50B0130055405F /* TweetList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TweetList.storyboard; sourceTree = "<group>"; };
+		9FE8BAB11F50B0130055405F /* TweetListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetListViewController.swift; sourceTree = "<group>"; };
+		9FE8BAB31F50B0130055405F /* RealmDaoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDaoHelper.swift; sourceTree = "<group>"; };
+		9FE8BAB61F50B0130055405F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FE8BABC1F50B7060055405F /* TweetListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetListCell.swift; sourceTree = "<group>"; };
+		9FE8BABE1F50B7DE0055405F /* TweetAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetAPI.swift; sourceTree = "<group>"; };
+		9FE8BAC01F50B80E0055405F /* TweetStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetStatus.swift; sourceTree = "<group>"; };
+		9FE8BAC21F50B8310055405F /* TweetResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetResult.swift; sourceTree = "<group>"; };
+		9FE8BAC41F50B85D0055405F /* TweetItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetItem.swift; sourceTree = "<group>"; };
+		9FE8BAC71F50BA880055405F /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		9FE8BAC81F50BA880055405F /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9FE8BACB1F50F8720055405F /* TweetImageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetImageData.swift; sourceTree = "<group>"; };
+		9FE8BACD1F50F8790055405F /* TweetImageDataDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetImageDataDao.swift; sourceTree = "<group>"; };
+		9FE8BACF1F50FE340055405F /* TweetListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetListDataSource.swift; sourceTree = "<group>"; };
+		BD6956C2671A90A4DDD523F7 /* Pods-SkillupPractice9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillupPractice9.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkillupPractice9/Pods-SkillupPractice9.release.xcconfig"; sourceTree = "<group>"; };
+		CFD26768F9E300BF80C920CD /* Pods_SkillupPractice9.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillupPractice9.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E353530D34480F2707EA3A45 /* Pods-SkillupPractice9UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillupPractice9UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkillupPractice9UITests/Pods-SkillupPractice9UITests.release.xcconfig"; sourceTree = "<group>"; };
+		F2353220E6DE5A6639BE211C /* Pods-SkillupPractice9Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillupPractice9Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkillupPractice9Tests/Pods-SkillupPractice9Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEE7430DF8154875953BC717 /* Pods_SkillupPractice9Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillupPractice9Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FE8BA7B1F50A7380055405F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F121BD4C14E556386F3EDD70 /* Pods_SkillupPractice9.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE8BA8F1F50A7380055405F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6E7DCA029CB575BAE6BD58 /* Pods_SkillupPractice9Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE8BA9A1F50A7380055405F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037357AAC8F2C92BAC68AC69 /* Pods_SkillupPractice9UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01353B07E95166B94837123F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFD26768F9E300BF80C920CD /* Pods_SkillupPractice9.framework */,
+				FEE7430DF8154875953BC717 /* Pods_SkillupPractice9Tests.framework */,
+				9B13B03C572904D352A89340 /* Pods_SkillupPractice9UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FE8BA751F50A7380055405F = {
+			isa = PBXGroup;
+			children = (
+				9FE8BA801F50A7380055405F /* SkillupPractice9 */,
+				9FE8BA951F50A7380055405F /* SkillupPractice9Tests */,
+				9FE8BAA01F50A7380055405F /* SkillupPractice9UITests */,
+				9FE8BA7F1F50A7380055405F /* Products */,
+				A0B022554E59B47D36D820AC /* Pods */,
+				01353B07E95166B94837123F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FE8BA7F1F50A7380055405F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FE8BA7E1F50A7380055405F /* SkillupPractice9.app */,
+				9FE8BA921F50A7380055405F /* SkillupPractice9Tests.xctest */,
+				9FE8BA9D1F50A7380055405F /* SkillupPractice9UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FE8BA801F50A7380055405F /* SkillupPractice9 */ = {
+			isa = PBXGroup;
+			children = (
+				9FE8BAAF1F50B0130055405F /* Controller */,
+				9FE8BAB21F50B0130055405F /* Helper */,
+				9FE8BAB41F50B0130055405F /* Model */,
+				9FE8BAB51F50B0130055405F /* Other */,
+				9FE8BAC61F50BA880055405F /* Util */,
+				9FE8BAB71F50B0130055405F /* View */,
+				9FE8BA881F50A7380055405F /* Assets.xcassets */,
+				9FE8BA8A1F50A7380055405F /* LaunchScreen.storyboard */,
+				9FE8BA8D1F50A7380055405F /* Info.plist */,
+			);
+			path = SkillupPractice9;
+			sourceTree = "<group>";
+		};
+		9FE8BA951F50A7380055405F /* SkillupPractice9Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9FE8BA961F50A7380055405F /* SkillupPractice9Tests.swift */,
+				9FE8BA981F50A7380055405F /* Info.plist */,
+			);
+			path = SkillupPractice9Tests;
+			sourceTree = "<group>";
+		};
+		9FE8BAA01F50A7380055405F /* SkillupPractice9UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FE8BAA11F50A7380055405F /* SkillupPractice9UITests.swift */,
+				9FE8BAA31F50A7380055405F /* Info.plist */,
+			);
+			path = SkillupPractice9UITests;
+			sourceTree = "<group>";
+		};
+		9FE8BAAF1F50B0130055405F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9FE8BAB01F50B0130055405F /* TweetList.storyboard */,
+				9FE8BAB11F50B0130055405F /* TweetListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9FE8BAB21F50B0130055405F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9FE8BAB31F50B0130055405F /* RealmDaoHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9FE8BAB41F50B0130055405F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FE8BABE1F50B7DE0055405F /* TweetAPI.swift */,
+				9FE8BAC01F50B80E0055405F /* TweetStatus.swift */,
+				9FE8BAC21F50B8310055405F /* TweetResult.swift */,
+				9FE8BAC41F50B85D0055405F /* TweetItem.swift */,
+				9FE8BACB1F50F8720055405F /* TweetImageData.swift */,
+				9FE8BACD1F50F8790055405F /* TweetImageDataDao.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FE8BAB51F50B0130055405F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9FE8BAB61F50B0130055405F /* AppDelegate.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9FE8BAB71F50B0130055405F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FE8BABC1F50B7060055405F /* TweetListCell.swift */,
+				9FE8BACF1F50FE340055405F /* TweetListDataSource.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FE8BAC61F50BA880055405F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9FE8BAC71F50BA880055405F /* APIClient.swift */,
+				9FE8BAC81F50BA880055405F /* NetworkManager.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A0B022554E59B47D36D820AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				236C7AD2098FE34C6FED04D4 /* Pods-SkillupPractice9.debug.xcconfig */,
+				BD6956C2671A90A4DDD523F7 /* Pods-SkillupPractice9.release.xcconfig */,
+				F2353220E6DE5A6639BE211C /* Pods-SkillupPractice9Tests.debug.xcconfig */,
+				644979E1DC4084C75DAA80E8 /* Pods-SkillupPractice9Tests.release.xcconfig */,
+				663C34674CB88D660D650A00 /* Pods-SkillupPractice9UITests.debug.xcconfig */,
+				E353530D34480F2707EA3A45 /* Pods-SkillupPractice9UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FE8BA7D1F50A7380055405F /* SkillupPractice9 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FE8BAA61F50A7380055405F /* Build configuration list for PBXNativeTarget "SkillupPractice9" */;
+			buildPhases = (
+				8B337DA008C13C8D79BA8BF0 /* [CP] Check Pods Manifest.lock */,
+				9FE8BA7A1F50A7380055405F /* Sources */,
+				9FE8BA7B1F50A7380055405F /* Frameworks */,
+				9FE8BA7C1F50A7380055405F /* Resources */,
+				B35B27B60B258D67D0739BAC /* [CP] Embed Pods Frameworks */,
+				97CCA113257C9C46AA10E4B2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkillupPractice9;
+			productName = SkillupPractice9;
+			productReference = 9FE8BA7E1F50A7380055405F /* SkillupPractice9.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FE8BA911F50A7380055405F /* SkillupPractice9Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FE8BAA91F50A7380055405F /* Build configuration list for PBXNativeTarget "SkillupPractice9Tests" */;
+			buildPhases = (
+				F342DDCE048CD686B131DABF /* [CP] Check Pods Manifest.lock */,
+				9FE8BA8E1F50A7380055405F /* Sources */,
+				9FE8BA8F1F50A7380055405F /* Frameworks */,
+				9FE8BA901F50A7380055405F /* Resources */,
+				4D7E7BE05CAB50AF93366551 /* [CP] Embed Pods Frameworks */,
+				04D0AA5106465F20275056AD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FE8BA941F50A7380055405F /* PBXTargetDependency */,
+			);
+			name = SkillupPractice9Tests;
+			productName = SkillupPractice9Tests;
+			productReference = 9FE8BA921F50A7380055405F /* SkillupPractice9Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FE8BA9C1F50A7380055405F /* SkillupPractice9UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FE8BAAC1F50A7380055405F /* Build configuration list for PBXNativeTarget "SkillupPractice9UITests" */;
+			buildPhases = (
+				0BE573CEAC3DCC9B14E77227 /* [CP] Check Pods Manifest.lock */,
+				9FE8BA991F50A7380055405F /* Sources */,
+				9FE8BA9A1F50A7380055405F /* Frameworks */,
+				9FE8BA9B1F50A7380055405F /* Resources */,
+				5CB8C1DDBFEADA9EA17DC73B /* [CP] Embed Pods Frameworks */,
+				005F4EA668EC30D6935A48E3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FE8BA9F1F50A7380055405F /* PBXTargetDependency */,
+			);
+			name = SkillupPractice9UITests;
+			productName = SkillupPractice9UITests;
+			productReference = 9FE8BA9D1F50A7380055405F /* SkillupPractice9UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FE8BA761F50A7380055405F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = k_moto;
+				TargetAttributes = {
+					9FE8BA7D1F50A7380055405F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PCCZJUYRT6;
+						ProvisioningStyle = Automatic;
+					};
+					9FE8BA911F50A7380055405F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9FE8BA7D1F50A7380055405F;
+					};
+					9FE8BA9C1F50A7380055405F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9FE8BA7D1F50A7380055405F;
+					};
+				};
+			};
+			buildConfigurationList = 9FE8BA791F50A7380055405F /* Build configuration list for PBXProject "SkillupPractice9" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FE8BA751F50A7380055405F;
+			productRefGroup = 9FE8BA7F1F50A7380055405F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FE8BA7D1F50A7380055405F /* SkillupPractice9 */,
+				9FE8BA911F50A7380055405F /* SkillupPractice9Tests */,
+				9FE8BA9C1F50A7380055405F /* SkillupPractice9UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FE8BA7C1F50A7380055405F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE8BA8C1F50A7380055405F /* LaunchScreen.storyboard in Resources */,
+				9FE8BAB81F50B0130055405F /* TweetList.storyboard in Resources */,
+				9FE8BA891F50A7380055405F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE8BA901F50A7380055405F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE8BA9B1F50A7380055405F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		005F4EA668EC30D6935A48E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkillupPractice9UITests/Pods-SkillupPractice9UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		04D0AA5106465F20275056AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkillupPractice9Tests/Pods-SkillupPractice9Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0BE573CEAC3DCC9B14E77227 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D7E7BE05CAB50AF93366551 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkillupPractice9Tests/Pods-SkillupPractice9Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CB8C1DDBFEADA9EA17DC73B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkillupPractice9UITests/Pods-SkillupPractice9UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B337DA008C13C8D79BA8BF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		97CCA113257C9C46AA10E4B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkillupPractice9/Pods-SkillupPractice9-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B35B27B60B258D67D0739BAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkillupPractice9/Pods-SkillupPractice9-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F342DDCE048CD686B131DABF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FE8BA7A1F50A7380055405F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE8BAD01F50FE340055405F /* TweetListDataSource.swift in Sources */,
+				9FE8BACE1F50F8790055405F /* TweetImageDataDao.swift in Sources */,
+				9FE8BACC1F50F8720055405F /* TweetImageData.swift in Sources */,
+				9FE8BAC31F50B8310055405F /* TweetResult.swift in Sources */,
+				9FE8BABF1F50B7DE0055405F /* TweetAPI.swift in Sources */,
+				9FE8BACA1F50BA880055405F /* NetworkManager.swift in Sources */,
+				9FE8BAC51F50B85D0055405F /* TweetItem.swift in Sources */,
+				9FE8BABB1F50B0130055405F /* AppDelegate.swift in Sources */,
+				9FE8BABA1F50B0130055405F /* RealmDaoHelper.swift in Sources */,
+				9FE8BAB91F50B0130055405F /* TweetListViewController.swift in Sources */,
+				9FE8BABD1F50B7060055405F /* TweetListCell.swift in Sources */,
+				9FE8BAC11F50B80E0055405F /* TweetStatus.swift in Sources */,
+				9FE8BAC91F50BA880055405F /* APIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE8BA8E1F50A7380055405F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE8BA971F50A7380055405F /* SkillupPractice9Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE8BA991F50A7380055405F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE8BAA21F50A7380055405F /* SkillupPractice9UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FE8BA941F50A7380055405F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FE8BA7D1F50A7380055405F /* SkillupPractice9 */;
+			targetProxy = 9FE8BA931F50A7380055405F /* PBXContainerItemProxy */;
+		};
+		9FE8BA9F1F50A7380055405F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FE8BA7D1F50A7380055405F /* SkillupPractice9 */;
+			targetProxy = 9FE8BA9E1F50A7380055405F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FE8BA8A1F50A7380055405F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FE8BA8B1F50A7380055405F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FE8BAA41F50A7380055405F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FE8BAA51F50A7380055405F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FE8BAA71F50A7380055405F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 236C7AD2098FE34C6FED04D4 /* Pods-SkillupPractice9.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = SkillupPractice9/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.SkillupPractice9";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9FE8BAA81F50A7380055405F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD6956C2671A90A4DDD523F7 /* Pods-SkillupPractice9.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = SkillupPractice9/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.SkillupPractice9";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9FE8BAAA1F50A7380055405F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2353220E6DE5A6639BE211C /* Pods-SkillupPractice9Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkillupPractice9Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.SkillupPractice9Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkillupPractice9.app/SkillupPractice9";
+			};
+			name = Debug;
+		};
+		9FE8BAAB1F50A7380055405F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 644979E1DC4084C75DAA80E8 /* Pods-SkillupPractice9Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkillupPractice9Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.SkillupPractice9Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkillupPractice9.app/SkillupPractice9";
+			};
+			name = Release;
+		};
+		9FE8BAAD1F50A7380055405F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 663C34674CB88D660D650A00 /* Pods-SkillupPractice9UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SkillupPractice9UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.SkillupPractice9UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SkillupPractice9;
+			};
+			name = Debug;
+		};
+		9FE8BAAE1F50A7380055405F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E353530D34480F2707EA3A45 /* Pods-SkillupPractice9UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SkillupPractice9UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.SkillupPractice9UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SkillupPractice9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FE8BA791F50A7380055405F /* Build configuration list for PBXProject "SkillupPractice9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE8BAA41F50A7380055405F /* Debug */,
+				9FE8BAA51F50A7380055405F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FE8BAA61F50A7380055405F /* Build configuration list for PBXNativeTarget "SkillupPractice9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE8BAA71F50A7380055405F /* Debug */,
+				9FE8BAA81F50A7380055405F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FE8BAA91F50A7380055405F /* Build configuration list for PBXNativeTarget "SkillupPractice9Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE8BAAA1F50A7380055405F /* Debug */,
+				9FE8BAAB1F50A7380055405F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FE8BAAC1F50A7380055405F /* Build configuration list for PBXNativeTarget "SkillupPractice9UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE8BAAD1F50A7380055405F /* Debug */,
+				9FE8BAAE1F50A7380055405F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FE8BA761F50A7380055405F /* Project object */;
+}
